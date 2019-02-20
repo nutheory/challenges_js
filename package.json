@@ -1,0 +1,20 @@
+{
+  "name": "codewars_js",
+  "version": "1.0.0",
+  "description": "codewars challenges",
+  "main": "index.js",
+  "author": "Derek",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src/**",
+    "test": "jest src --watchAll"
+  },
+  "dependencies": {
+    "jest": "24.1.0",
+    "typescript": "3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "5.14.1",
+    "eslint-plugin-jest": "22.3.0"
+  }
+}

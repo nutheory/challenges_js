@@ -6,15 +6,17 @@
   "author": "Derek",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint src/**",
-    "test": "jest src --watchAll"
+    "lint": "tslint",
+    "test": "jest --watchAll"
   },
-  "dependencies": {
-    "jest": "24.1.0",
-    "typescript": "3.3.3"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@types/jest": "24.0.6",
     "eslint": "5.14.1",
-    "eslint-plugin-jest": "22.3.0"
+    "eslint-plugin-jest": "22.3.0",
+    "jest": "24.1.0",
+    "ts-jest": "24.0.0",
+    "tslint-eslint-rules": "5.4.0",
+    "typescript": "3.3.3"
   }
 }
